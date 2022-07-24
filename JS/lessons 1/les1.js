@@ -1,33 +1,33 @@
 
 
-// console.log(fd)
-// console.log(ou)
-// console.log(om)
-// console.log(fg)
-// console.log(a)
-// console.log(b)
-// console.log(c)
-// console.log(d)
-// console.log(e)
-// console.log(f)
-// console.log(g)
-// console.log(h)
-// console.log(i)
+console.log(fd)
+console.log(ou)
+console.log(om)
+console.log(fg)
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+console.log(e)
+console.log(f)
+console.log(g)
+console.log(h)
+console.log(i)
 
 
-// let fd = 'hello';
-// let ou = 'owu';
-// let om = 'com';
-// let fg = 'ua';
-// let a = 1;
-// let b = '10';
-// let c = "-999";
-// let d = 123;
-// let e = 3.14;
-// let f = 2.7;
-// let g = 16;
-// let h = true;
-// let i = false;
+let fd = 'hello';
+let ou = 'owu';
+let om = 'com';
+let fg = 'ua';
+let a = 1;
+let b = '10';
+let c = "-999";
+let d = 123;
+let e = 3.14;
+let f = 2.7;
+let g = 16;
+let h = true;
+let i = false;
 
 
 
