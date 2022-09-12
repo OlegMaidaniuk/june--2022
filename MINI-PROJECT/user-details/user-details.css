@@ -1,0 +1,76 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user {
+    width: 100%;
+    background: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userElement {
+    width: 50%;
+    height: 20px;
+    background: silver;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.potsDiv {
+    width: 100%;
+    background: darkred;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.postDiv {
+    width: 15%;
+    height: 150px;
+    background: blue;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.postsButton {
+    width: 50px;
+    height: 25px;
+    background: lemonchiffon;
+    position: relative;
+    transition: .3s;
+    overflow: hidden;
+    display: block;
+
+}
+
+.postsButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -200px;
+    width: 50px;
+    height: 100%;
+    background: darkcyan;
+    filter: blur(15px);
+    transform: skewX(-30deg);
+}
+
+@keyframes flare-line {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 150%;
+    }
+}
+
