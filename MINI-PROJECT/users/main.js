@@ -28,6 +28,9 @@ fetch(`https://jsonplaceholder.typicode.com/users`).then(value => value.json()).
     }
 });
 
+// 1. не спрацьовую fetch в першому main.js незрозуміло чому, може ви вже базу даних вимкнули на доступ чи ні?
+//     все ніби то як у ментора на консультації.
+
 
 
 
