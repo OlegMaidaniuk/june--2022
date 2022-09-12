@@ -35,4 +35,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}`).then(value => val
                     commentsDiv.appendChild(comment);
                 }
             }));
+
     }));
+// 1. не спрацьовую fetch в першому main.js незрозуміло чому, може ви вже базу даних вимкнули на доступ чи ні?
+//     все ніби то як у ментора на консультації.
